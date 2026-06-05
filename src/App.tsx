@@ -35,7 +35,7 @@ export default function App() {
         {!account ? (
           <div className="connect-screen">
             <div className="connect-hero">
-              <span className="hero-glyph">⛓</span>
+              <img src="/walrus/blobs/Wdphiq28_eIy6CsnJ8BLFca0jXXwLdpB6Pu7ecgqRbk" alt="TxnHunt" className="hero-glyph" />
               <h1 className="hero-title">
                 Find the Transaction.<br />
                 <span className="hero-accent">Claim the NFT.</span>
