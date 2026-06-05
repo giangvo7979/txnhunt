@@ -1,10 +1,7 @@
 <div align="center">
-  <img
-    src="https://aggregator.walrus-mainnet.walrus.space/v1/blobs/Wdphiq28_eIy6CsnJ8BLFca0jXXwLdpB6Pu7ecgqRbk"
-    alt="TXNHUNT Logo"
-    width="280"
-  />
-    
+
+<img width="300" alt="TXNHUNT Logo" src="https://github.com/user-attachments/assets/6ed24444-fe7b-45dd-98c5-400a1ddad466" />
+
 # TXNHUNT
 
 > **Hunt real transactions on the Sui blockchain. Submit the correct digest → Mint your NFT. Fastest wins!**
