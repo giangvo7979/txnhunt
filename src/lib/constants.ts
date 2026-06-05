@@ -9,7 +9,7 @@ export const ADMIN_ADDRESS = SUPER_ADMIN;
 export const GOOGLE_SCRIPT_URL = import.meta.env.VITE_GOOGLE_SCRIPT_URL ?? '';
 export const GOOGLE_ADMIN_KEY  = import.meta.env.VITE_GOOGLE_ADMIN_KEY ?? '';
 
-export const WALRUS_AGGREGATOR = 'https://aggregator.walrus-mainnet.walrus.space/v1';
+export const WALRUS_AGGREGATOR = '/walrus';
 
 export const NFT_IMAGE_BLOBS: Record<number, string> = {
   1: 'HAtP8kcW6b_nK1_I5wOgBzLtBB1pfd9S5iYqWN5s65E', // easy
