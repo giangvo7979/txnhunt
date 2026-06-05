@@ -22,7 +22,7 @@ export default function App() {
     <div className="app">
       <nav className="navbar">
         <div className="nav-brand">
-          <img src="https://aggregator.walrus-mainnet.walrus.space/v1/blobs/Wdphiq28_eIy6CsnJ8BLFca0jXXwLdpB6Pu7ecgqRbk" alt="TxnHunt" className="brand-icon" />
+          <img src="/walrus/blobs/Wdphiq28_eIy6CsnJ8BLFca0jXXwLdpB6Pu7ecgqRbk" alt="TxnHunt" className="brand-icon" />
           <span className="brand-name">TxnHunt</span>
         </div>
         <div className="nav-right">
