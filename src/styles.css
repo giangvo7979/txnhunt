@@ -290,6 +290,9 @@ input { font-family: inherit; }
   position: relative;
   z-index: 1;
   animation: heroFloat 4s ease-in-out infinite;
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
 }
 
 @keyframes heroFloat {
