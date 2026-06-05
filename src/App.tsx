@@ -44,9 +44,8 @@ export default function App() {
                 Hunt real transactions on the Sui blockchain using on-chain clues.<br />
                 Submit the correct digest → Mint your NFT. Fastest wins!
               </p>
-              {/* <div className="connect-cta">
-                <ConnectButton />
-              </div> */}
+              <div className="connect-cta">
+              </div>
               <div className="hero-features">
                 <div className="feature">
                   <span className="feature-icon">🎯</span>
