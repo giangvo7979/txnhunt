@@ -1,8 +1,10 @@
-# TXNHUNT
+<p align="center">
+  <img width="300" alt="hunt1" src="https://github.com/user-attachments/assets/733432f1-5a94-4d09-93f1-988124552e60" />
+</p>
 
 > **Hunt real transactions on the Sui blockchain. Submit the correct digest → Mint your NFT. Fastest wins!**
 
-TxnHunt is a blockchain-based treasure hunt game where players solve on-chain clues to find real Sui transactions, submit the correct digest, and mint exclusive NFTs as rewards.
+TxnHunt is a blockchain-based treasure hunt game where players solve on-chain clues to find real Sui transactions, submit the correct digest, and mint exclusive NFTs as rewards. Compete with other hunters on the monthly leaderboard, climb the rankings, and earn exclusive rewards reserved for top-performing players.
 
 ---
 
