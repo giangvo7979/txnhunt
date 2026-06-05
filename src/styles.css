@@ -1670,3 +1670,10 @@ input { font-family: inherit; }
 [data-radix-popper-content-wrapper] {
   z-index: 9999 !important;
 }
+
+.brand-icon {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  background: transparent;
+}
