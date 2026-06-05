@@ -1,8 +1,6 @@
-<div align="center">
-
-<img width="300" alt="TXNHUNT Logo" src="https://github.com/user-attachments/assets/6ed24444-fe7b-45dd-98c5-400a1ddad466" />
-
-# TXNHUNT
+<p align="center">
+  <img width="300" alt="hunt1" src="https://github.com/user-attachments/assets/733432f1-5a94-4d09-93f1-988124552e60" />
+</p>
 
 > **Hunt real transactions on the Sui blockchain. Submit the correct digest → Mint your NFT. Fastest wins!**
 
