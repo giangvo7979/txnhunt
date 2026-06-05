@@ -1,4 +1,4 @@
-# 🎮 TxnHunt
+# ⛓ TxnHunt
 
 > **Hunt real transactions on the Sui blockchain. Submit the correct digest → Mint your NFT. Fastest wins!**
 
