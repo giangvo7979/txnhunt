@@ -26,8 +26,6 @@ import {
   LOCKED_IMAGE_BLOB,
 } from '../lib/constants';
 
-import { waitForTransaction } from '../lib/suiClient';
-
 type GameStep =
   | 'loading'
   | 'hunt'
@@ -135,8 +133,10 @@ export default function Play() {
         digest:    trimmed,
         salt:      verifyResult.salt,
       });
-      const result = await signAndExecute({ transaction: submitTx });
-      await waitForTransaction(result.digest);
+      await signAndExecute({ transaction: submitTx });
+
+      await new Promise(r => setTimeout(r, 2000));
+
       const cap = await findAllowlistCap(account.address, session.session_id);
       if (!cap) throw new Error('AllowlistCap not found — retry in a few seconds');
 

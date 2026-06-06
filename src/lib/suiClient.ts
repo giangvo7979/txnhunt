@@ -1,3 +1,5 @@
+// ── Sui JSON-RPC client (no Seal, no Walrus gRPC dependency) ─────────────────
+
 const SUI_RPC = 'https://fullnode.mainnet.sui.io';
 
 export async function suiRpc<T>(method: string, params: unknown[]): Promise<T> {
@@ -9,26 +11,6 @@ export async function suiRpc<T>(method: string, params: unknown[]): Promise<T> {
   const json = await res.json() as { result?: T; error?: { message: string } };
   if (json.error) throw new Error(json.error.message);
   return json.result as T;
-}
-
-export async function waitForTransaction(
-  digest: string,
-  maxAttempts = 15,
-  intervalMs = 2000,
-): Promise<void> {
-  for (let i = 0; i < maxAttempts; i++) {
-    try {
-      const res = await suiRpc<{ data?: { digest: string } }>(
-        'sui_getTransactionBlock',
-        [digest, {}],
-      );
-      if (res.data?.digest) return; // confirmed
-    } catch {
-      // chưa có, thử lại
-    }
-    await new Promise(r => setTimeout(r, intervalMs));
-  }
-  throw new Error(`Transaction ${digest} not confirmed after ${maxAttempts * intervalMs / 1000}s`);
 }
 
 export async function getOwnedObjects(owner: string, type?: string): Promise<Array<{
